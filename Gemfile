@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'activerecord', '~> 4.1.10'
+gem 'activerecord', '~> 5.2.4', '>= 5.2.4.3'
 gem 'alphadecimal'
 gem 'dalli'
 gem 'dotenv'
