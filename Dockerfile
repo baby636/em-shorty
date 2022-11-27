@@ -1,4 +1,4 @@
-FROM ruby:2.3.8
+FROM ruby:2.7.6
 MAINTAINER Josh Ellithorpe <josh@quest@mac.com>
 
 # Setup app environment.
