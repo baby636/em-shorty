@@ -25,6 +25,6 @@ gem 'thin'
 gem 'tux'
 
 group :test do
-  gem 'rubocop'
+  gem 'rubocop', '>= 0.82.0'
   gem 'simplecov', '>= 0.4.0', require: false, group: :test
 end
