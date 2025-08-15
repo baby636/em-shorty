@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'activerecord', '~> 4.1.10'
+gem 'activerecord', '~> 7.1.5', '>= 7.1.5.2'
 gem 'alphadecimal'
 gem 'dalli'
 gem 'dotenv'
@@ -18,7 +18,7 @@ gem 'rack-test'
 gem 'rake'
 gem 'sass'
 gem 'sinatra'
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord', '>= 2.0.19'
 gem 'sinatra-i18n'
 gem 'sqlite3', '~> 1.3.6'
 gem 'thin'
